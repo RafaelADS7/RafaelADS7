@@ -1,0 +1,26 @@
+Algoritmo "Partida de Futebol"
+
+Var
+   B, M, G:inteiro
+Inicio
+      escreva("quantos gols o bangu fez?")
+         leia(B)
+      escreva("quantos gols o madureira fez?")
+         leia(M)
+      G <-  abs(B - M)
+      escreval("------------------------------")
+      escreval("diferença de gols entre Bangu e Madureira foi de" , G)
+      escreval("------------------------------")
+   se(G > 0) e (G <=2)entao
+      escreval("Partida Normal")
+      escreval("----------------------------")
+   senao
+      se(G = 0)entao
+        escreva("EMPATE")
+               senao
+                  se(G > 2)entao
+                    escreval("GOLEADA")
+               fimse
+          fimse
+     fimse
+Fimalgoritmo
