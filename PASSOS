@@ -1,0 +1,19 @@
+Algoritmo "semnome"
+
+Var
+
+  P, Maior:inteiro
+Inicio
+      P <- 0
+      enquanto (P <=10) faca
+      P <- P + 1
+      escreva(P)
+      se(P > Maior) entao
+        Maior <- P
+      fimse
+      fimenquanto
+      
+
+
+Fimalgoritmo
+// ACHAR O MAIOR
